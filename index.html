@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4 Meses contigo Ari <3 </title>
+    <title>4 Meses con Ari <3 </title>
         <style type="text/css">
             body{
                 background-color: #d48beb;
@@ -30,18 +30,18 @@
           var saludo=""
           var tiempo= new Date().getHours()
           if(tiempo < 12){
-              saludo= "¡Buenos Dias, felices 4 meses!"
+              saludo= "¡Buenos Dias, felices 4 meses Ariiii !"
           }
           else if(tiempo < 18){
-              saludo="¡Buenas Tardes, que buenos 4 meses!"
+              saludo="¡Buenas Tardes, que buenos 4 meses hemos pasado!"
           }
           else {
-              saludo="¡Buenas Noches, gracias por estos 4 meses!"
+              saludo="¡Buenas Noches, gracias por estos 4 meses :*!"
           }
           document.getElementById("saludo").innerHTML=saludo
       } 
       function accionParaCuandoEllaDigaQueSi(){
-            window.alert("Yo tambien estoy feliz de ser tu novio <3");
+            window.alert("Yo tambien estoy feliz de ser tu novio <3 xd ");
         }
         function mueveElBoton(){
             width = window.innerWidth;
@@ -53,6 +53,7 @@
             document.getElementById('btnNo').style.position = "absolute";
             document.getElementById('btnNo').style.left = newWidth + "px";
             document.getElementById('btnNo').style.top = newHeight + "px";
+
         }
         function felicidad(){
     alert("Te Amo Mucho <3")
@@ -70,10 +71,21 @@
 <br>
     <button style="background-color: rgb(217, 103, 252);" onclick="Saludar()"> Tocar </button>
     <p id="saludo"></p>
-    <h7b>Color 1.</h7b>
-    <h7c>Color 2.</h7c>
+  
+<br>
+<br>
+
+    <audio controls style="border: #a603d8;" autoplay>
+        <source src="sinmiedo.mp3" 
+    style=""
+        type="audio/mp3" >
+        
+</audio>
+<br>
+<br>
+
     <h3>¿Estas feliz de ser mi novia?:p</h3>
-    <input style="background-color: darkcyan;" type="Button" onclick= "accionParaCuandoEllaDigaQueSi()" id="ButtonSi" value="Si">
+    <input style="background-color: rgb(248, 149, 56);" type="Button" onclick= "accionParaCuandoEllaDigaQueSi()" id="ButtonSi" value="Si">
     <br>
 
     <input style="background-color:rgb(178, 79, 248);" type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" /><br>
